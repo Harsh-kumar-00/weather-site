@@ -2,72 +2,72 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
-  
-  body {
+}
+
+body {
     font-family: 'Segoe UI', sans-serif;
     background: linear-gradient(to right, #83a4d4, #b6fbff);
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-  }
-  
-  /* Header + Nav */
-  header {
+}
+
+/* Header + Nav */
+header {
     background-color: #005f73;
     padding: 1rem 2rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
     color: white;
-  }
-  
-  header h1 {
+}
+
+header h1 {
     font-size: 1.5rem;
     display: flex;
     align-items: center;
-  }
-  
-  header h1::before {
+}
+
+header h1::before {
     content: '🌤️ ';
     margin-right: 8px;
-  }
-  
-  nav a {
+}
+
+nav a {
     color: white;
     text-decoration: none;
     margin-left: 1rem;
     font-weight: bold;
-  }
-  
-  nav a:hover {
+}
+
+nav a:hover {
     text-decoration: underline;
-  }
-  
-  /* Main Section */
-  main {
+}
+
+/* Main Section */
+main {
     flex-grow: 1;
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 2rem;
-  }
-  
-  .input-section {
+}
+
+.input-section {
     display: flex;
     margin-bottom: 2rem;
-  }
-  
-  input {
+}
+
+input {
     padding: 10px;
     border-radius: 8px;
     border: 1px solid #ccc;
     width: 250px;
     font-size: 1rem;
-  }
-  
-  button {
+}
+
+button {
     padding: 10px 15px;
     border: none;
     border-radius: 8px;
@@ -77,36 +77,25 @@
     cursor: pointer;
     margin-left: 10px;
     transition: background-color 0.3s ease;
-  }
-  
-  button:hover {
+}
+
+button:hover {
     background-color: #0369a1;
-  }
-  
-  /* Weather Box */
-  .weather-info {
-    background-color: #fff;
-    padding: 1.5rem 2rem;
-    border-radius: 16px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    width: 90%;
-    max-width: 400px;
-  }
-  
-  .weather-info h2 {
+}
+
+.weather-info h2 {
     font-size: 1.8rem;
     margin-bottom: 0.5rem;
     color: #111;
-  }
-  
-  .weather-info p {
+}
+
+.weather-info p {
     margin: 0.4rem 0;
     font-size: 1rem;
     color: #333;
-  }
+}
 
-  .weather-info {
+.weather-info {
     background-color: #ffffff;
     padding: 1.5rem;
     margin-top: 1.5rem;
@@ -118,33 +107,32 @@
     line-height: 1.6;
     max-width: 320px;
     font-size: 1rem;
-  }
-  
-  
-  /* Footer */
-  footer {
+}
+
+
+/* Footer */
+footer {
     background-color: #005f73;
     color: white;
     text-align: center;
     padding: 1rem;
     font-size: 0.9rem;
-  }
+}
 
-  
-  .forecast-grid {
+
+.forecast-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
     gap: 1.5rem;
     padding: 2rem;
     width: 100%;
     max-width: 1200px;
-  }
-  
-  .forecast-card {
+}
+
+.forecast-card {
     background-color: white;
     padding: 1rem;
     border-radius: 12px;
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
     text-align: center;
-  }
-  
+}
