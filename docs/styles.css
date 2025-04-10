@@ -105,6 +105,21 @@
     font-size: 1rem;
     color: #333;
   }
+
+  .weather-card {
+    background-color: #ffffff;
+    padding: 1.5rem;
+    margin-top: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    width: fit-content;
+    margin-inline: auto;
+    text-align: left;
+    line-height: 1.6;
+    max-width: 320px;
+    font-size: 1rem;
+  }
+  
   
   /* Footer */
   footer {
